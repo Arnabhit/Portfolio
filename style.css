@@ -1,0 +1,252 @@
+
+html{
+    font-family: 'Acme', sans-serif;
+}
+body{
+    background-color: khaki;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 0px 450px 10px 450px;
+    padding: 0;
+    border: 10px 10px 10px 10px;
+    border:2px inset rgb(153, 69, 69);
+    border-radius: 20px;
+    font-size: 32px;
+    background-color:cyan;
+}
+ul{
+    
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li{
+    float:left;
+}
+li a {
+    display: block;
+    text-align: center;
+    
+    padding:  22px;
+    
+}
+
+a:hover{
+    color:red;
+  }
+  
+.profile{
+    width: 0.5px 0 0.5px 0px;
+    height: 450px;
+    font-size:28px;
+  /* border-width: 5px;
+  border-color: brown;
+  border-radius: 10px; */
+  border: 5px inset brown;
+  border-radius:10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:row;
+  text-align: center;
+  box-shadow: 11px 10px rgb(175, 78, 78);
+}
+.intro{
+    padding:  0px 30px;  
+    width: 800px;
+    height: 200px;  
+    font-size: 28px;
+    font-weight: bold;
+    text-align: left;
+    
+}
+
+.img1{
+    display: flex;
+    flex-direction: column;
+    height:250px;
+    width:250px;
+    border:2px solid black;
+    border-radius: 50%;
+}
+.project{
+    margin-top: 100px;
+
+    width: 270px;
+    height: 300px;  
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border: 2px solid brown ;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 11px 10px rgb(175, 78, 78);
+   
+
+
+}
+
+ol{
+    
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.skills {
+    
+    text-align: center;
+    
+    padding:  22px;
+    
+}
+.skillset{
+    width: 270px;
+    height: 300px;  
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border: 2px solid brown ;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 11px 10px rgb(175, 78, 78);
+}
+#one{
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.work{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#btn:hover{
+    width: 50px;
+    height:30px;
+    border:3px solid blueviolet;
+    border-radius: 10px;
+}
+button{
+    width: 80px;
+    height:30px;
+    border:3px solid orangered; 
+}
+button:hover{
+    
+    background-color: blue;
+
+}
+#contact_page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .so{
+    
+    display: flex;
+    flex-direction: row;
+  
+  }
+  .s_icon{
+    width: 50px;
+    height: 50px;
+    margin:25px ;
+  
+  }
+  
+  
+  
+  input[type=text], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+      text-align: center;
+    }
+    label{
+      font-weight: bold;
+      font-size: 20px;
+    }
+    
+    
+    .btn2{
+      margin-left: 160px;
+      height: fit-content;
+      width: fit-content;
+      font-size: 20px;
+      text-decoration: none;
+      align-self:center ;
+      border-radius: 10px;
+      
+  
+    }
+    .btn2:hover{
+      color:blue;
+    }
+    
+    .ppo{
+        text-align: center;
+        text-decoration:underline;
+    }
+    #under{
+        text-decoration:underline;   
+    }
+  
+    .contact{
+      
+      border: 2px solid brown;
+      width:400px;
+      height:400px;
+      align-items: center;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 40px;
+      box-shadow: 11px 10px 11px 10px rgb(175, 78, 78);
+    }
+  
+    .btn{
+      height: fit-content;
+      width: fit-content;
+      border-radius: 4px;
+      background-color: aqua;
+      cursor: pointer;
+      margin-top: 50px;
+  
+    }
+    .btn_a{
+      text-decoration: none;
+      color: #4D4C7D;
+      font-size: 27px;
+  
+  
+    }
+    .btn1{
+      height: fit-content;
+      width: fit-content;
+      border-radius: 4px;
+      background-color: aqua;
+      cursor: pointer;
+      margin-top: 105px;
+  
+    }
+  
+    btn_a:hover{
+      color: blue;
+      background-color: #E9D5CA;
+    }
